@@ -1,0 +1,29 @@
+{
+  "name": "videoapp",
+  "version": "1.0.0",
+  "description": "trying grunt stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt.",
+    "tst"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0",
+    "node-sass": "^4.7.2",
+    "uglify-es": "git+https://github.com/mishoo/UglifyJS2.git#harmony"
+  },
+  "devDependencies": {
+    "babel-install": "2.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
